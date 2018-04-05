@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QCD JS</title>
 </head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #main {
+        padding: 10px;
+        width: 800px;
+    }
+    article {
+        margin-bottom: 10px;
+        border-bottom: 2px solid #222;
+    }
+    input[type="radio"] {
+        visibility: hidden;
+    }
+    section {
+        margin: 10px;
+    }
+    label {
+        border: 2px solid #222;
+        padding: 4px;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+    input[type="radio"]:checked+label {
+        background-color: rgb(84, 121, 221);
+        color: #ffffff;
+    }
+    .arg {
+        display: none;
+    }
+    footer {
+        padding: 10px;
+    }
+</style>
 <body>
+<header>
+    <h1>QCD Langage Web</h1>
+</header>
 
+<main id="main">
+</main>
+
+<footer>
+    <input type="button" value="Vérifier" id="validation">
+</footer>
+<script type="text/javascript" src="monscript.js"></script>
 </body>
 </html>
