@@ -35,11 +35,11 @@ function toHTML(o, id){
       <section class="question">${o.question}</section>
       <section class="choice">
       
-	    <label for="radio">VRAI</label>
-        <input type="radio" id="${id}_input" id="radio" value="choice" checked/>
+	    <label for="choix">VRAI</label>
+        <input type="radio" id="${id}_input" id="choix" value="choice" checked/>
         
-        <label for="radio">FAUX</label>
-        <input type="radio" value="choice" id="radio" />
+        <label for="choix">FAUX</label>
+        <input type="radio" value="choice" id="choix" />
         
       </section>
       <section id="${id}_solution"></section>
